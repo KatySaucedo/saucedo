@@ -1,0 +1,231 @@
+@font-face{
+  font-family: "clear";
+  src: url("../asociacion/font/font/Grunge\ Social\ Media.ttf");
+}
+*{
+	margin:0;
+	padding:0; /* para que la pagina te quede en el centro*/
+}
+
+html {
+	font-size:10px;  /* es un valor tomado por la facilidad de los multiplos para manejar los rem*/
+}
+
+body {
+	background-color:#FAD4D4; /*colores seguros son valores de 3 */
+	color:#666; /* tipografia*/
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:1.6rem;
+	font-weight:300;
+	min-width:960px; 
+}
+#logotipo{
+  background-image: url(../imagenes/longi.jpg);
+  background-position: left;
+  background-size: auto;
+  width: 45vh;
+  height: 800px;
+  margin: 0px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+#logotipo nav{
+  display: inline-block;
+}
+h1 {
+	background: #16773d; 
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:3rem;
+	font-weight:300;
+	color:#999;		
+	margin-bottom:3rem;	 /*son 30px, que va en relacion al valor del body */
+	text-align:left;	
+}
+h3 {
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:2.5rem;
+	font-weight:300;
+	color:#31727e;
+	margin-bottom:2rem;	 
+	text-align:center;	
+}
+
+img {
+	border:none;
+}
+
+p {
+	line-height:125%;
+	text-align:justify;
+	margin:0 0 2rem; /* cuando son 3 valores son top, right-left, bottom*/
+}
+
+header {
+	/*background:none;*/
+	height:100px;
+	margin:0 auto; /*centrado el elemento dentro del padre junto con el padding */
+	padding:0;
+	width:960px;
+	text-align:center;	
+}
+
+header /*#logotipo img */{
+	/*width:100vh; /* imagene adaptate al contenedor*/
+  /*float: left;*/
+  position: relative;
+  overflow: hidden;
+  display:inline-block;
+}
+
+nav {
+	width:49%; /*para permitir que deje aire para incluir logo y texto juntos */
+	height:40px;
+	display:inline-block;
+	margin-left:0;
+	text-align:right;
+	vertical-align:top;
+}
+
+nav ul 
+{
+	height:30px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+nav li {
+	list-style:none;
+	display:inline-block;
+	
+}
+nav li a
+{
+	background-color:#FAD4D4;
+	height:25px;
+	color: #333 !important;
+	display: inline-block;
+	margin:2rem 0 0 0;
+	padding:1rem;	
+	text-align:center;	
+	text-decoration: none;
+	transition: all 1s ease;
+	width:auto;	/* se adapta al contenido, es decir aun cuando el tamaño del texto sea largo se mantien igual en todas las cajitas. */
+	vertical-align:top;
+}
+
+
+.rslides {
+  position: relative; /*relativo al padre */
+  list-style: none;
+  overflow: hidden; /*mascara */
+  width: 100%;
+  padding: 0;
+  margin: 0 auto 40px;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child { /* de todos lo elementos que tienes solo seleccina uno de ellos y aplica este atributo*/
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+#noticias{
+  width: 96%;
+  height: auto;
+  margin: 3.5% 0 3.5% 3.5%;
+}
+#noticias ul{
+  width: 96%;
+  height: auto;
+  text-align: center;
+}
+#noticias ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 3.5%;
+  width: 30%;
+  vertical-align: top;
+}
+#noticias ul li:first-child{
+  margin-left:0;
+}
+#noticias ul li figure{
+  width: 98%;
+}
+/*ajuste de 3 columnas*/
+#noticias ul li img{
+  width: 100%;
+}
+#noticias ul li figure figcaption{
+  width:95%;
+  height: auto;
+  margin: 0;
+  padding: 1.5rem;
+  text-align: center;
+}
+.push{
+  height:300px;
+  clear: both;
+}
+div{
+  width: 100%;
+  height:70px;
+  color: #FAD4D4;
+}
+#asoci{
+  width:30%;
+  height:30%;
+  text-align:center;
+  margin:0px;
+  display: inline-block;
+  cursor:grab;
+  font-family: 'clear';
+      font-size: 3rem;
+}
+#alucca{
+  width:30%;
+  height:30%;
+  text-align:center;
+  margin:0px;
+  display: inline-block;
+  cursor:grab;
+  font-family: 'clear';
+      font-size: 3rem;
+  
+}
+#voluntarios{
+  width:25%;
+  height:30%;
+  text-align:center;
+  margin:0px;
+  display: inline-block;
+  cursor:grab;
+  font-family: 'clear';
+      font-size: 3rem;
+}
+#asoci #alucca #voluntarios{
+  background-color: #31727e;
+  display:inline-block;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../Imagenes/logo.ico" type = "Imagenes/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="registro.css" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>iniciar seccion</title>
+    </head>
+<body>
+  <header class="navbar navbar-expand-md bg-dark navbar-dark py-0 fixed-top">
+        <aside class="container">
+          <li> <a href="index.html"><h4 class="display-4 fw-bolder text-md-center text-primary text-lg-center">registro</h4> </a></li>
+        </aside>
+  </header>
+<section id="registro">
+        <article id="registro">
+            <h2>NUEVO REGISTRO</h2> 
+            <form action="/action_page.php">
+              <div class="mb-3 mt-3">
+                <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre"  placeholder="capture su nombre(s)" name="nombre">
+              </div>
+              <div class="mb-3">
+                <label for="apellidouno" class="form-label">Apellido paterno</label>
+            <input type="text" class="form-control" id="apellidouno" placeholder="capture su apellido paterno" name="apellido uno">
+              </div>
+              <div class="mb-3">
+                <label for="apellidodos" class="form-label">Apellido materno</label>
+            <input type="text" class="form-control"  id="apellidodos" placeholder="capture su apellido materno" name="apellido materno">
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="edad" class="form-label">Edad</label>
+          <input type="number" class="form-control" id="edad" placeholder="capture su edad" name="edad"> 
+          <div class="mb-3 mt-3">
+            <label for="fecha" class="form-label">Fecha</label>
+          <input type="date" class="form-control" id="fecha" placeholder="capture su fecha de nacimiento" name="fecha de nacimiento" required autofocus>
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+          </div>
+            <input type="submit" value="Guardar">
+        </form>
+        </article>
+</section>
+  <section id="ingresar">
+        <article id="estiloglass">
+          <h2>INICIAR SECCION</h2>
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <button type="submit" class="btn btn-primary">ingresar</button>
+          </form>
+        </article>
+  </section>
+</body>
+</html>

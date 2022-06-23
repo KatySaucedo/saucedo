@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 0px;
+}
+.apartdo{
+    width: 100%;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+.uno{
+    height: 300px;
+    background-color: #000;
+}
+.tres{
+    background-color: #C2DED1;
+}
+.cinco{
+  width:100%;
+  height:100px;
+  background-color: #000;
+  margin:0px;
+  text-align: center;
+}
+#texto{
+    width: 85%;
+    height: 300px;
+    background-color: #000;
+    margin: 0px auto;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Lora', serif;
+    color: white;
+}
+#video{
+    width: 15%;
+    height: 300px;
+    background-color: #000;
+    margin: 5px auto;
+    float: right;
+    position: absolute;
+    overflow: hidden;
+}
+#texto, #video{
+    display: inline-block;
+}
+video{
+    background-position: right;
+    left: 75px;
+    top: 0px;
+    height: 100%;
+    z-index: -1;
+}
+h4{
+    margin: 0px;
+    font-family: 'Lora', serif;
+    color: white;
+    font-size: 65px;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+p{
+  margin:0px;
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: justify;
+  vertical-align: middle;
+}
+#video2{
+  width: 35%;
+  height: 350px;
+  background-color: #C2DED1;
+  margin:auto;
+  float: right;
+  position: absolute;
+  overflow: hidden;
+}
+#conciencia{
+   width: 65%;
+    height: 300px;
+    background-color:  #C2DED1;
+    margin: 35px auto;
+    float: right;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Lora', serif;
+    color: black;
+}
+#video2 #conciencia{
+  display: inline-block;
+}
+#moti{
+  font-family: 'Bebas Neue', cursive;
+  text-indent: center;
+  margin: 0px;
+  font-size: 60px;
+  color:#F6C6EA;
+  vertical-align:-25px;
+  cursor:grab;
+  text-decoration:none;
+  box-shadow: 0 0 5px #DAEAF1;
+}
